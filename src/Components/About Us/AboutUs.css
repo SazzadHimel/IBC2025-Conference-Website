@@ -1,5 +1,5 @@
 .about-us {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 .about-row {
@@ -118,12 +118,26 @@ h3 {
 }
 
 @media (max-width: 768px) {
+    /* Adjust the layout for mobile view */
     .about-row, .about-details-row, .conference-row, .conference-details-row {
         flex-direction: column;
         align-items: center;
     }
 
-    .about-text, .conference-text {
-        text-align: justify;
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+
+    .about-us p,
+    .about-us ul {
+        font-size: 0.9em;
+    }
+
+    .conference-text {
+        font-size: 0.9em;
     }
 }

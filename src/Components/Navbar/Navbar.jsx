@@ -9,18 +9,21 @@ const Navbar = () => {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
 
     return (
         <nav className="navbar">
             <Link to="/"><img src={logo} alt="Logo" className="logo" /></Link>
             <div className={`menu ${isMenuOpen ? "open" : ""}`}>
                 <ul>
-                    <li><Link to="/">HOME</Link></li>
-                    <li><Link to="about-us">ABOUT US</Link></li>
-                    <li><Link to="/abstract">ABSTRACT</Link></li>
-                    <li><Link to="/organizers">ORGANIZERS</Link></li>
-                    <li><Link to="/venue">VENUE</Link></li>
-                    <li><Link to="/contact-us">CONTACT US</Link></li>
+                    <li><Link to="/" onClick={closeMenu}>HOME</Link></li>
+                    <li><Link to="about-us" onClick={closeMenu}>ABOUT US</Link></li>
+                    <li><Link to="/abstract" onClick={closeMenu}>ABSTRACT</Link></li>
+                    <li><Link to="/organizers" onClick={closeMenu}>ORGANIZERS</Link></li>
+                    <li><Link to="/venue" onClick={closeMenu}>VENUE</Link></li>
+                    <li><Link to="/contact-us" onClick={closeMenu}>CONTACT US</Link></li>
                 </ul>
             </div>
             <div className="hamburger" onClick={toggleMenu}>

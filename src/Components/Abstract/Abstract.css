@@ -1,16 +1,87 @@
 .abstract {
     width: 100%;
-    min-height: 50vh;
+    min-height: 30vh;
     background: linear-gradient(rgba(5, 2, 20, 0.567), rgba(6, 2, 22, 0.638)), url(../../assets/New_Campus.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 25px;
-    color: white;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     padding: 20px;
+}
+
+
+.info-section {
+    margin-top: 40px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.info-details-row {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    color: #0d4da1;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 20px 0;
+    text-align: left;
+}
+
+
+.info-section p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.info-section ul {
+    font-size: 1em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.info-section ul {
+    list-style: none;
+}
+
+.info-section ul li {
+    position: relative;
+    padding: 0 0 10px 30px;
+}
+
+.info-section ul li::before {
+    content: '➤';
+    position: absolute;
+    left: 0;
+    color: #0d4da1;
+    font-size: 1em;
 }
 
 .abstract-text {
@@ -32,6 +103,19 @@
 }
 
 @media (max-width: 768px) {
+    .info-row, .info-details-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+    
     .abstract {
         min-height: 40vh;
         padding: 15px;

@@ -16,9 +16,10 @@
   color: #333;
 }
 
+/* Schedule Styles */
 .schedule {
   margin-top: 40px;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
 }
@@ -67,12 +68,33 @@
 }
 
 @media (max-width: 768px) {
+
+  .venue h3 {
+    font-size: 1.2em;
+  }
+
+  .venue p {
+    font-size: 0.9em;
+  }
+
+  .schedule-title {
+    font-size: 1.2em;
+  }
+
+  .schedule-column h3 {
+    font-size: 1.1em;
+  }
+
+  .schedule-column li {
+    font-size: 0.8em;
+  }
+
   .schedule-row {
-      flex-direction: column;
-      gap: 15px;
+    flex-direction: column;
+    gap: 15px;
   }
 
   .schedule-column {
-      width: 100%;
+    width: 100%;
   }
 }
