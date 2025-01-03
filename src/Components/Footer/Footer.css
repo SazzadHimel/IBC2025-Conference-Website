@@ -91,6 +91,24 @@ footer {
     .footer-socials a {
         font-size: 1.5rem;
     }
+
+    .footer-column p {
+        font-size: 0.8rem;
+        line-height: 1.8;
+        color: #363d65;
+    }
+
+    .bracu-logo {
+        width: auto;
+        height: 60px;
+        margin: auto 30px;
+    }
+
+    .event-logo {
+        width: 150px;
+        height: auto;
+        margin: auto 0px;
+    }
 }
 
 @media (max-width: 480px) {
