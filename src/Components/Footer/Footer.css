@@ -85,7 +85,7 @@ footer {
 
     .footer-column {
         min-width: 100%;
-        margin: 10px;
+        margin: 10px 0px;
     }
 
     .footer-column p {
@@ -97,13 +97,13 @@ footer {
     .bracu-logo {
         width: auto;
         height: 60px;
-        margin: auto 30px;
+        margin: auto 20px;
     }
 
     .event-logo {
         width: 150px;
         height: auto;
-        margin: auto 0px;
+        margin: auto 10px;
     }
 }
 
@@ -114,7 +114,7 @@ footer {
     }
 
     .footer-socials a {
-        font-size: 1.3rem;
+        font-size: 2.2rem;
     }
 
     .footer-copyright {
