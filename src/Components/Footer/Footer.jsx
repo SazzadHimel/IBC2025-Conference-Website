@@ -1,4 +1,5 @@
 import './Footer.css';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import BRAC_logo from '../../assets/bracu_logo.png';
 import { FaFacebook, FaLinkedin } from 'react-icons/fa';
@@ -8,8 +9,8 @@ const Footer = () => {
         <footer>
             <div className="footer">
                 <div className="footer-column">
-                    <a href="https://www.bracu.ac.bd/"><img src={BRAC_logo} alt="BRAC-Logo" className="bracu-logo" /></a>
-                    <a href="/IBC2025-Conference-Website/"><img src={logo} alt="Event Logo" className="event-logo" /></a>
+                    <Link to="https://www.bracu.ac.bd/"><img src={BRAC_logo} alt="BRAC-Logo" className="bracu-logo" /></Link>
+                    <Link to="/"><img src={logo} alt="Event Logo" className="event-logo" /></Link>
                 </div>
                 <div className="footer-column">
                     <p>
