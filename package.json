@@ -1,13 +1,10 @@
 {
-  "homepage": "https://SazzadHimel.github.io/IBC2025-Conference-Website",
   "name": "ibc-2025-conference",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

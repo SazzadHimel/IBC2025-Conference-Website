@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vite.dev/config/
 export default defineConfig({
-  base: '/IBC2025-Conference-Website/', 
-});
+  plugins: [react()],
+})
