@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SubHeader from "../Sub Header/SubHeader"
 import './Abstract.css';
 
@@ -35,18 +36,6 @@ const Abstract = () => {
                                 <p>A graphical abstract is encouraged to visually represent your research. It should be a clear and concise visual summary of your work, complementing the text.</p>
                                 <h3>Keywords: </h3>
                                 <p>Mention up to five (5) keywords relevant to the Abstract topic separated by commas.</p>
-                                <h3>References: </h3>
-                                <p>Write at least two (2) references using the following format guidelines.
-                                Reference writing format: Taken from https://libguides.cu-portland.edu/APA_style/references
-                                ARTICLES (JOURNAL, MAGAZINE, & NEWSPAPER)</p>
-                                <p>The basic format is: </p>
-                                <p>Last_name, First_initial. Middle_initial. (Publication Date). Title of article: Subtitle of article. Title of Periodical, vol#(iss#), page-range. https://doi.org/doi.number
-                                BOOKS, including eBOOKS & REFERENCE BOOKS</p>
-                                <p>The basic format is: </p>
-                                <p>Last_name, First_initial. Middle_initial. (Publication Year). Title of book: Subtitle of book. City, State_abbreviation: Publisher.*</p>
-                                <p><strong>ONLINE SOURCES</strong></p>
-                                <p>The basic format is: </p>
-                                <p>Last_name, First_initial. Middle_initial. (Publication Date). Title of source [Description of format, if it is not just a plain webpage]. Retrieved from http://www.URL.com</p>
                                 <h3>Formatting Requirements: </h3>
                                 <ul>
                                     <li><strong>Length: </strong>Maximum 1 page, including all sections and the graphical abstract (if included).</li>
@@ -63,7 +52,10 @@ const Abstract = () => {
                     <div className='abstract-text'>
                         <h1>Submit your abstract here</h1>
                         <p>We are excited to review your ideas and contributions!</p>
-                        <button className='btn'>Abstract Submission</button>
+                        <button className='btn'>
+                            <a href="/assets/IBC2025 Abstract-Template.docx" download="IBC2025_Abstract_Template.docx">Abstract Template</a>
+                        </button>
+                        <button className='btn'><Link to="https://docs.google.com/forms/d/e/1FAIpQLSdYPLCYNcxwFNJS6Mc37ljPsLgC43JNA_3XRdcNJptvE_KifQ/viewform">Abstract Submission</Link></button>
                     </div>
                 </div>
             </div>

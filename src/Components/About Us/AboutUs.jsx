@@ -33,6 +33,7 @@ const AboutUs = () => {
                             <li>Computational Biology & Bioinformatics: Leveraging big data, AI, and machine learning for biological research and healthcare.</li>
                             <li>Biosensors and Bioelectronics: Developing sensor technologies for real-time monitoring of health and environmental parameters.</li>
                             <li>Marine Biotechnology: Exploring marine resources for bioactive compounds, sustainable aquaculture, and climate change mitigation.</li>
+                            <li>Industrial and Food Biotechnology:</li>
                         </ul>
                         <p>
                             In addition to the scientific sessions, participants will have opportunities for networking, collaboration, and sharing of ideas with experts and peers from diverse fields.

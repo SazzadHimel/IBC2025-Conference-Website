@@ -15,9 +15,7 @@ const Footer = () => {
                 <div className="footer-column">
                     <p>
                         <strong>BRAC University Permanent Campus</strong>
-                        <br />
-                        Merul Badda, Dhaka, Bangladesh.
-                    </p>
+                        <br />Kha 224 Pragati Sarani, Merul Badda, <br/> Dhaka 1212, Bangladesh</p>
                 </div>
                 <div className="footer-column socials-column">
                     <p><strong>Connect with us:</strong></p>

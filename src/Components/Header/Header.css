@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(5, 2, 20, 0.638), rgba(6, 2, 22, 0.66)), url(../../assets/roof.jpg);
+    background: linear-gradient(rgba(5, 2, 20, 0.342), rgba(6, 2, 22, 0.271)), url(../../assets/roof.jpg);
     background-size: cover;
     background-position: center;
     color: white;
