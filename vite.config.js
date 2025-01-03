@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/IBC2025-Conference-Website/',
-  build: { outDir: 'build' },  // Use this if deploying to a subdirectory
+  build: { outDir: 'build' },
+  assetsInclude: ['**/*.docx'],
 })
 

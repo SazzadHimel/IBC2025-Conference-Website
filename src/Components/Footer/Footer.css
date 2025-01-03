@@ -3,7 +3,7 @@ footer {
     width: 100%;
     background-color: #ffff;
     color: #363d65;
-    padding: 20px 0;
+    padding: 10px 0;
     align-content: center;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
 }
@@ -26,15 +26,14 @@ footer {
 
 .bracu-logo {
     width: auto;
-    height: 100px;
-    margin: 0 auto;
+    height: 80px;
+    margin: auto 20px;
 }
 
 .event-logo {
-    width: 250px;
+    width: 200px;
     height: auto;
-    margin: 0 auto;
-    padding: 20px;
+    margin: auto 20px;
 }
 
 .logo-column img {
@@ -55,12 +54,12 @@ footer {
 .footer-socials {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .footer-socials a {
     color: #46408c;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     transition: color 0.3s ease-in-out;
 }
 
@@ -86,11 +85,7 @@ footer {
 
     .footer-column {
         min-width: 100%;
-    }
-
-    .footer-logo,
-    .footer-event-logo {
-        height: 50px;
+        margin: 10px;
     }
 
     .footer-socials a {
@@ -99,10 +94,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .footer-logo,
-    .footer-event-logo {
-        height: 50px;
-    }
 
     .address-column p {
         font-size: 0.9rem;

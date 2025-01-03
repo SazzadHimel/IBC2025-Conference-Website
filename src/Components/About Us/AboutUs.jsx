@@ -2,6 +2,7 @@ import SubHeader from '../Sub Header/SubHeader.jsx';
 import './AboutUs.css';
 import bracUniversity from '../../assets/Brac_University.png';
 import New_Campus2 from '../../assets/New_Campus3.jpg';
+import Globe from '../../assets/Globe.png';
 
 const AboutUs = () => {
     return (
@@ -25,15 +26,15 @@ const AboutUs = () => {
                             It will focus on the latest innovations and practical applications across several critical areas, including:
                         </p>
                         <ul>
-                            <li>Environmental Biotechnology: Exploring biotechnological solutions for waste management, pollution control, and ecosystem restoration.</li>
-                            <li>Pharmaceutical Biotechnology: Advancements in drug development, vaccine research, and biologic therapies.</li>
-                            <li>Medical Biotechnology: Cutting-edge technologies for diagnostics, gene therapies, and precision medicine.</li>
-                            <li>Agricultural Biotechnology: Innovations in crop improvement, pest management, and sustainable farming techniques.</li>
-                            <li>Microbial Biotechnology: Harnessing microorganisms for industrial, medical, and environmental applications.</li>
-                            <li>Computational Biology & Bioinformatics: Leveraging big data, AI, and machine learning for biological research and healthcare.</li>
-                            <li>Biosensors and Bioelectronics: Developing sensor technologies for real-time monitoring of health and environmental parameters.</li>
-                            <li>Marine Biotechnology: Exploring marine resources for bioactive compounds, sustainable aquaculture, and climate change mitigation.</li>
-                            <li>Industrial and Food Biotechnology:</li>
+                            <li><strong>Environmental Biotechnology:</strong> Exploring biotechnological solutions for waste management, pollution control, and ecosystem restoration.</li>
+                            <li><strong>Pharmaceutical Biotechnology:</strong> Advancements in drug development, vaccine research, and biologic therapies.</li>
+                            <li><strong>Medical Biotechnology:</strong> Cutting-edge technologies for diagnostics, gene therapies, and precision medicine.</li>
+                            <li><strong>Agricultural Biotechnology:</strong> Innovations in crop improvement, pest management, and sustainable farming techniques.</li>
+                            <li><strong>Microbial Biotechnology:</strong> Harnessing microorganisms for industrial, medical, and environmental applications.</li>
+                            <li><strong>Computational Biology & Bioinformatics:</strong> Leveraging big data, AI, and machine learning for biological research and healthcare.</li>
+                            <li><strong>Biosensors and Bioelectronics:</strong> Developing sensor technologies for real-time monitoring of health and environmental parameters.</li>
+                            <li><strong>Marine Biotechnology:</strong> Exploring marine resources for bioactive compounds, sustainable aquaculture, and climate change mitigation.</li>
+                            <li><strong>Industrial and Food Biotechnology:</strong> Cutting edge research on use of living organisms and their products to improve food and other industrial processes.</li>
                         </ul>
                         <p>
                             In addition to the scientific sessions, participants will have opportunities for networking, collaboration, and sharing of ideas with experts and peers from diverse fields.
@@ -72,8 +73,35 @@ const AboutUs = () => {
                             <img src={New_Campus2} alt="New Campus" className="about-image" />
                         </div>
                     </div>
-                    <div>
-                        
+                </div>
+                <div className='space'></div>
+                <div className="about-row">
+                    <h2>Our Participants</h2>
+                    <p>
+                        The Biotechnology International Conference 2025 will attract a diverse range of participants from
+                        around the globe, all united by a shared interest in the transformative power of biotechnology to
+                        address global challenges in environmental sustainability and health. 
+                    </p>
+                    <p>
+                        The conference will oer an inclusive platform for scientists, researchers, industry professionals, educators, students, and
+                        policymakers to engage in meaningful discussions, knowledge exchange, and collaboration. Below are the key categories of participants:
+                    </p>
+                    <div className="conference-details-row">
+                        <ul>
+                            <li>Academic Researchers and Scientists</li>
+                            <li>Industry Professionals and Entrepreneurs</li>
+                            <li>Policymakers and Regulatory Experts</li>
+                            <li>Educators and Trainers</li>
+                            <li>Students and Early-Career Researchers</li>
+                            <li>Innovators and Entrepreneurs</li>
+                            <li>Healthcare and Environmental Professionals</li>
+                            <li>Media and Journalists</li>
+                            <li>Investors and Venture Capitalists</li>
+                            <li>General Public and Enthusiasts</li>
+                        </ul>
+                    </div>
+                    <div className="about-image-container">
+                        <img src={Globe} alt="Globe" className="globe-image" />
                     </div>
                 </div>
                 <div className='space'></div>

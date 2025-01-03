@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SubHeader from "../Sub Header/SubHeader"
+import Template from "../../assets/IBC2025-Abstract-Template.docx";
 import './Abstract.css';
 
 const Abstract = () => {
@@ -53,7 +54,7 @@ const Abstract = () => {
                         <h1>Submit your abstract here</h1>
                         <p>We are excited to review your ideas and contributions!</p>
                         <button className='btn'>
-                            <a href="/assets/IBC2025 Abstract-Template.docx" download="IBC2025_Abstract_Template.docx">Abstract Template</a>
+                            <a href={Template} target="_blank" rel="noopener noreferrer">Abstract Template</a>
                         </button>
                         <button className='btn'><Link to="https://docs.google.com/forms/d/e/1FAIpQLSdYPLCYNcxwFNJS6Mc37ljPsLgC43JNA_3XRdcNJptvE_KifQ/viewform">Abstract Submission</Link></button>
                     </div>

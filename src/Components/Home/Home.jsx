@@ -1,6 +1,7 @@
 import Header from '../Header/Header.jsx';
 import bracUniversity from '../../assets/Brac_University.png';
 import './Home.css';
+import Events from '../Event/Event.jsx';
 
 const Home = () => {
     return (
@@ -42,8 +43,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Events showSubHeader={false} />
             <div className="schedule">
-                <h2 className="schedule-title">Conderence Schedule</h2>
+                <h2 className="schedule-title">Conference Schedule</h2>
                 <div className="schedule-row">
                     <div className="schedule-column">
                         <h3>DAY 1</h3>
