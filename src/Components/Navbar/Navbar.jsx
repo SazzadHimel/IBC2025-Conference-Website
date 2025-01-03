@@ -11,15 +11,15 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <img src={logo} alt="Logo" className="logo" />
+            <a href="/IBC2025-Conference-Website/"><img src={logo} alt="Logo" className="logo" /></a>
             <div className={`menu ${isMenuOpen ? "open" : ""}`}>
                 <ul>
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="/about-us">ABOUT US</a></li>
-                    <li><a href="/abstract">ABSTRACT</a></li>
-                    <li><a href="/organizers">ORGANIZERS</a></li>
-                    <li><a href="/venue">VENUE</a></li>
-                    <li><a href="/contact-us">CONTACT US</a></li>
+                    <li><a href="/IBC2025-Conference-Website/">HOME</a></li>
+                    <li><a href="/IBC2025-Conference-Website/about-us">ABOUT US</a></li>
+                    <li><a href="/IBC2025-Conference-Website/abstract">ABSTRACT</a></li>
+                    <li><a href="/IBC2025-Conference-Website/organizers">ORGANIZERS</a></li>
+                    <li><a href="/IBC2025-Conference-Website/venue">VENUE</a></li>
+                    <li><a href="/IBC2025-Conference-Website/contact-us">CONTACT US</a></li>
                 </ul>
             </div>
             <div className="hamburger" onClick={toggleMenu}>

@@ -8,8 +8,8 @@ const Footer = () => {
         <footer>
             <div className="footer">
                 <div className="footer-column">
-                    <img src={BRAC_logo} alt="BRAC-Logo" className="bracu-logo" />
-                    <img src={logo} alt="Event Logo" className="event-logo" />
+                    <a href="https://www.bracu.ac.bd/"><img src={BRAC_logo} alt="BRAC-Logo" className="bracu-logo" /></a>
+                    <a href="/IBC2025-Conference-Website/"><img src={logo} alt="Event Logo" className="event-logo" /></a>
                 </div>
                 <div className="footer-column">
                     <p>

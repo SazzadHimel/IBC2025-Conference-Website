@@ -10,7 +10,7 @@ const ContactUs = () => {
         <div className='container space'>
             <div className="contact-details">
                 <div className="contact-row">
-                    <div className='contact-image-container'>
+                    <div className='contact-image'>
                         <img src={drMunimaImage} alt="Dr. Munima Haque" className='contact-image' />
                     </div>
                     <div className="contact-text">
